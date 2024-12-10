@@ -35,7 +35,6 @@ class Cat(Animal):
         super().info()
         print(f"Колір: {self.color}")
 
-
 dog = Dog("Рекс", 5, "Німецька вівчарка")
 cat = Cat("Мурчик", 3, "Рудий")
 
